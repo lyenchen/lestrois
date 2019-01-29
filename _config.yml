@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Château Preuillac
-email: lyenchen@yahoo.com
+email: contact@chateaupreuillac.com
 description: "Great Château, Great Wine"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lyenchen.github.io/preuillac/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://chateaupreuillac.github.io/chateaupreuillac/" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username:  chateaupreuillac
 
 # Build settings
 markdown: kramdown
