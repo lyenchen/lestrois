@@ -388,6 +388,9 @@ px      68    160    252    */
   /*--
 	footer Start 
 --*/
+  footer {
+    padding-right: 5px;
+  }
   footer .footer-manu {
     display: none;
   }
