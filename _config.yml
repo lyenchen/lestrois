@@ -17,7 +17,7 @@ title: Château Preuillac
 email: contact@chateaupreuillac.com
 description: "Great Château, Great Wine"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://chateaupreuillac.github.io/chateaupreuillac/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://chateaupreuillac.com/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  chateaupreuillac
 
