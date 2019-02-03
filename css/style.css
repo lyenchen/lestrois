@@ -69,6 +69,7 @@ a:active {
   font-style: regular;
   color: #FFFFFF;
 }
+
 /*--
   Header Start 
 --*/
@@ -119,7 +120,7 @@ header .language-selection {
 header .language-selection a {
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 @media (min-width: 400px) and (max-width: 991px) {
 header {
@@ -133,6 +134,14 @@ header .navbar-default .navbar-nav li a {
   font-size: 14px;
 }
 }
+#home .container .media {
+  height: 600px;
+  display: flex;
+  margin-top: -80px;
+  align-items: center;
+  vertical-align: middle;
+}
+
 /*----
   about
 ----*/
