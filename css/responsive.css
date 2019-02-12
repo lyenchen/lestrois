@@ -26,6 +26,13 @@ px      68    160    252    344    436    528    620    712    */
     border-bottom: 1px solid white;
     font-size: 14px;
   }
+  #home .container .media {
+  height: 600px;
+  display: flex;
+  margin-top: 0.2em
+  align-items: center;
+  vertical-align: middle;
+  }
   #sidebar .nav-side-menu .menu-list .menu-content {
     display: block;
     text-align: right;
@@ -70,12 +77,12 @@ px      68    160    252    344    436    528    620    712    */
     width: 68%;
   }
   footer .navbar-default .navbar-nav li a {
-    color: #494949;
+    color: #FFFFFF;
     padding: 10px 10px;
     font-size: 15px;
   }
   footer .navbar-default .navbar-nav li a:hover {
-    color: #000;
+    color: #FFFFFF;
   }
   /*---------------------------------------------
 					Index Close 
@@ -194,6 +201,13 @@ px      68    160    252    */
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  #home .container .media {
+  height: 600px;
+  display: flex;
+  margin-top: 0.2em;
+  align-items: center;
+  vertical-align: middle;
   }
   #slider {
     padding-top: 90px;
