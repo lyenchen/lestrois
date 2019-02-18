@@ -18,13 +18,13 @@ px      68    160    252    344    436    528    620    712    */
 -----------------------------------------------*/
   header {
     padding: 10px 0;
-    padding-left: 5px;
+    padding-left: 2px;
   }
   header .navbar-default .navbar-nav li a {
     padding: 5px 5px;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    font-size: 14px;
+    font-size: 12px;
   }
   #home .container .media {
   height: 600px;
@@ -199,29 +199,23 @@ px      68    160    252    */
     padding-left: 2px;
   }
   header .navbar-default .navbar-toggle {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  header .navbar-default .navbar-nav li a {
+    padding: 0;
+    border-top: 0;
+    border-bottom: 0;
+    font-size: 10px;
   }
   #home .container .media {
-  height: 600px;
+  height: 300px;
   display: flex;
   margin-top: 0.2em;
   align-items: center;
   vertical-align: middle;
   }
-  #slider {
-    padding-top: 90px;
-    padding-bottom: 100px;
-  }
-  #slider .block {
-    padding-left: 0px;
-  }
-  #slider .block h1 {
-    font-size: 20px;
-  }
-  #slider .block p {
-    font-size: 13px;
-  }
+
   /*--
 	wrapper Start 
 --*/
