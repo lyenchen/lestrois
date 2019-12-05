@@ -265,13 +265,13 @@ header .navbar-default .navbar-nav li a {
 
 #our-wines .wine-carousel {
   position: absolute;
-  top: 15%;
-  right: 10%;
+  top: 10rem;
+  right: 1px;
   text-align: center;
 }
 
 #our-wines .wine-carousel img {
-  width: 300px;
+  width: 250px;
 }
 
 #our-wines h1 {
@@ -299,9 +299,6 @@ header .navbar-default .navbar-nav li a {
   width: 60%;
 }
 
-#our-wines img {
-  width: 25rem;
-}
 
 @media (min-width: 500px) and (max-width: 991px) {
 header {
