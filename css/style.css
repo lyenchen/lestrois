@@ -89,12 +89,22 @@ header .navbar {
 header .navbar-brand {
   display: inline-block;
   float: left;
-  /*--float: left;--*/
+}
+header .navbar-menu {
+  display: inline-block;
+  float: right;
 }
 header .navbar-brand img {
   height: 80px;
   width: auto;
   padding: 1px 0 5px 0;
+}
+header .navbar-menu img {
+  height: auto;
+  width: 50px;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  padding: 5px 10px 15px 10px;
 }
 header .navbar-default {
   background: none;
@@ -108,6 +118,49 @@ header .navbar-default .navbar-nav li a {
 }
 header .navbar-default .navbar-nav li a:hover {
   color: #E0C187;
+}
+
+header .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url("../img/menucover.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+header .overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+header .overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #C9C1B3;
+  display: block;
+  transition: 0.3s;
+}
+
+header .overlay a:hover, .overlay a:focus {
+  text-decoration-color: #F9C16D;
+  text-decoration: underline !important;
+}
+
+header .overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
 
 @media (min-width: 992px) and (max-width: 1280px) {
@@ -474,16 +527,33 @@ header {
   footer Start 
 --*/
 footer {
-  /*background: #F5F5F5;*/
-  position: fixed;
+  background: #222;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
-  text-align: right;
+  padding: 2rem;
+}
+footer .footer-brand {
+  display: inline-block;
+  float: left;
+}
+footer .footer-connect {
+  display: inline-block;
+  float: right;
+}
+footer img {
+  width: 70px;
+  height: auto;
+}
+footer .fab {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #C9C1B3;
 }
 footer p {
-  font-size: 13px;
-  line-height: 15px;
-  color: #FFFFFF;
+  color: #C9C1B3;
+  font-family: "Open Sans", regular;
 }

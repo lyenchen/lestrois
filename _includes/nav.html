@@ -11,7 +11,31 @@
         <div class="span8">
         <!-- header Nav Start -->
         </div>
-    <div class="span2"></div>
+    <div class="span2">
+      <a class="navbar-menu" onclick="openNav()">
+        <img src="img/menu.png" alt="Menu">
+      </a>
+    </div>
+  </div>
+</div>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <img src="img/close.png" alt="Close">
+  </a>
+  <div class="overlay-content">
+    <a href="#">The Journey</a>
+    <a href="#">Our Vineyards</a>
+    <a href="#">Our Wines</a>
   </div>
 </div>
 </header>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
