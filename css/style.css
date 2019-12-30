@@ -54,6 +54,7 @@ a:focus,
 a:active {
   text-decoration: none !important;
 }
+
 .section-title {
   margin-bottom: 70px;
 }
@@ -525,6 +526,112 @@ header .navbar-default .navbar-nav li a {
   margin-bottom: 5rem;
 }
 
+#vineyard-home {
+  /*background: #1B1B1B no-repeat center center;*/
+  background-image: url("../img/cover7.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#vineyard-home h1 {
+  position: relative;
+  color: #C9C1B3;
+  margin-top: 12rem;
+  font-family: "Open Sans", Regular;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 13rem;
+  line-height: 12rem;
+  text-align: left;
+  margin-left: 2rem;
+  width: 50%;
+}
+
+#vineyard-home .vineyard-img {
+  position: relative;
+  filter: opacity(36%);
+  width: 100rem;
+  height: auto;
+  float: right;
+  top: 0;
+  margin-right: -2rem;
+}
+
+#vineyard-fronsac {
+  background: #1B1B1B no-repeat center center;
+  margin-bottom: 0;
+  vertical-align: middle;
+  align-items: center;
+}
+
+#vineyard-fronsac .fronsac-img {
+  margin-top: 12rem;
+  width: 50%;
+  float: left;
+}
+
+#vineyard-fronsac ul {
+  list-style-image: url("../img/list.png");
+  margin-left: 35%;
+}
+
+#vineyard-fronsac ul li {
+  margin: 4rem;
+  line-height: 4rem;
+}
+
+#vineyard-fronsac h1 {
+  position: absolute;
+  color: #C9C1B3;
+  margin-top: 50rem;
+  font-family: "Open Sans", Regular;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 13rem;
+  line-height: 12rem;
+  text-align: right;
+  width: 75%;
+}
+
+#vineyard-fronsac .fronsac-txt {
+  position: relative;
+  color: #C9C1B3;
+  margin-top: 70rem;
+  font-family: "Open Sans", Regular;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+#sidebar .nav-side-menu {
+  padding-top: 50rem;
+  flex-wrap: nowrap;
+  overflow: auto;
+  position: fixed;
+  height: 100%;
+  z-index: 2;
+}
+
+#sidebar .nav-side-menu .menu-list .menu-content {
+  display: block;
+  text-align: left;
+}
+
+#sidebar .nav-side-menu ul li a {
+  font-size: 1.5rem;
+  font-family: "Open Sans", Regular;
+  line-height: 5rem;
+  color: #5B574F;
+  text-decoration: none;
+}
+
+#sidebar .nav-side-menu ul li a:hover {
+  color: #C9C1B3;
+  border-bottom: 1px solid #F9C16D;
+}
+
 @media (min-width: 500px) and (max-width: 991px) {
 header {
   /*background: #fff;*/
@@ -547,118 +654,6 @@ header {
 }
 }
 
-
-/*----
-  about
-----*/
-#about {
-  width: 100%;
-}
-.block img {
-  padding-top: 40px;
-  /*float: center;*/
-  width: 100%;
-}
-/*---------------------------------------------
-          Index Start 
------------------------------------------------*/
-/*
-  image
-*/
-#resp_img {
-  width: 100%;
-  height: auto;
-  -webkit-animation-duration: 8s;
-}
-
-
-/*--
-  wrapper Start 
---*/
-#intro {
-  padding: 10px 0;
-}
-#intro .block h2 {
-  font-family: 'Cinzel';
-  font-style: bold;
-  color: #FFFFFF;
-  padding-top: 35px;
-  line-height: 27px;
-  margin: 0;
-}
-#intro .block h3 {
-  font-family: 'Cinzel';
-  font-style: italic;
-  color: #FFFFFF;
-  padding-top: 40px;
-  line-height: 24px;
-  margin: 0;
-}
-#intro .block h4 {
-  font-family: 'Cinzel';
-  color: #FFFFFF;
-  padding-top: 10px;
-  line-height: 24px;
-  margin: 0;
-}
-#intro .block p {
-  font-family: 'Cormorant';
-  font-size: 20px;
-  color: #FFFFFF;
-  padding-top: 20px;
-  text-align: justify;
-}
-#intro .block img {
-  padding-top: 40px;
-  float: center;
-  width: 100%;
-}
-#intro .section-title {
-  margin-bottom: 0px;
-}
-#intro .section-title p {
-  padding-top: 20px;
-}
-/*--
-  nav-side-menu start
---*/
-#sidebar .nav-side-menu {
-  padding-top: 30px;
-  
-  flex-wrap: nowrap;
-  overflow: auto;
-  font-family: 'Cinzel';
-  position: fixed;
-  height: 100%;
-  line-height: 50px;
-}
-#sidebar .nav-side-menu .menu-list .menu-content {
-    display: block;
-    text-align: right;
-}
-#sidebar .nav-side-menu ul li a {
-  font-size: 16px;
-  line-height: 50px;
-  color: #FFFFFF;
-}
-#sidebar .nav-side-menu li a:hover {
-  color: #E0C187;
-}
-
-@media (max-width: 850px) {
-#sidebar .nav-side-menu .menu-list .menu-content {
-    display: none;
-  }
-}
-
-
-
-
-/*---------------------------------------------
-          Contact Close 
------------------------------------------------*/
-
-/*---------------------------*/
 /*--
   footer Start 
 --*/
