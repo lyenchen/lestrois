@@ -374,6 +374,7 @@ header .navbar-default .navbar-nav li a {
   width: 50%;
   margin-left: 25%;
   margin-top: 25%;
+  z-index: 2;
 }
 
 #testimonial .story-desc h1 {
