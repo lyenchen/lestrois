@@ -341,9 +341,9 @@ header .navbar-default .navbar-nav li a {
   font-size: 13rem;
   line-height: 12rem;
   vertical-align: middle;
-  text-align: left;
+  text-align: right;
   margin-bottom: 2rem;
-  width: 50%;
+  width: 80%;
 }
 
 #our-wines p {
@@ -351,10 +351,10 @@ header .navbar-default .navbar-nav li a {
   font-family: "Open Sans", regular;
   letter-spacing: 1px;
   vertical-align: middle;
-  text-align: right;
-  margin-bottom: 5rem;
-  margin-left: 5px;
-  width: 50%;
+  text-align: left;
+  margin-top: 15rem;
+  margin-left: -5rem;
+  width: 80%;
 }
 
 #testimonial {
@@ -605,6 +605,13 @@ header .navbar-default .navbar-nav li a {
   font-weight: 300;
   font-size: 1.2rem;
   text-align: left;
+}
+
+#wine-detail {
+  background: #1B1B1B no-repeat center center;
+  margin-bottom: 0;
+  vertical-align: middle;
+  align-items: center;
 }
 
 #sidebar .nav-side-menu {
