@@ -614,6 +614,59 @@ header .navbar-default .navbar-nav li a {
   align-items: center;
 }
 
+#wine-detail .wine-control {
+  vertical-align: middle;
+  margin-top: 20%;
+}
+
+#wine-detail .wine-control a:hover {
+  border-bottom: 1px solid #F9C16D;
+}
+
+#wine-detail a {
+  color: #C9C1B3;
+  font-family: "Open Sans", Regular;
+}
+
+#wine-detail h1 {
+  color: #5B574F;
+  font-family: "Open Sans", Regular;
+  font-size: 5rem;
+}
+
+#wine-detail .wine-desc h1 {
+  color: #C9C1B3;
+  font-family: "Open Sans", Regular;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 13rem;
+  margin-top: -20px;
+}
+
+#wine-detail .wine-desc h2 {
+  color: #C9C1B3;
+  font-family: "Open Sans", Regular;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 8rem;
+  margin-top: -10px;
+}
+
+#wine-detail .wine-desc p {
+  color: #C9C1B3;
+  font-family: "Open Sans", Regular;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-top: -10px;
+}
+
+#wine-detail .wine-desc img {
+  width: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #sidebar .nav-side-menu {
   padding-top: 50rem;
   flex-wrap: nowrap;
