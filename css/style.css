@@ -661,6 +661,15 @@ header .navbar-default .navbar-nav li a {
   margin-top: -10px;
 }
 
+#wine-detail .download a {
+  color: #C9C1B3;
+  font-family: "Open Sans", Regular;
+  padding: 15px;
+  margin: 20px;
+  border: 1px solid #F9C16D;
+  
+}
+
 #wine-detail .wine-desc img {
   width: 120px;
   padding-top: 50px;
