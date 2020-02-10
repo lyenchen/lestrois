@@ -596,7 +596,16 @@ header .navbar-default .navbar-nav li a {
   width: 75%;
 }
 
-#vineyard-fronsac .fronsac-txt {
+#vineyard-fronsac h3 {
+  position: absolute;
+  color: #5B574F;
+  font-family: "Open Sans", Regular;
+  font-size: 4rem;
+  font-weight: 400;
+  margin-left: 35%;
+}
+
+#vineyard-fronsac .vineyard-txt {
   position: relative;
   color: #C9C1B3;
   margin-top: 70rem;
