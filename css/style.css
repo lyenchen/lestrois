@@ -560,30 +560,31 @@ header .navbar-default .navbar-nav li a {
   margin-right: -2rem;
 }
 
-#vineyard-fronsac {
+#vineyard-fronsac, #vineyard-bordeaux {
   background: #1B1B1B no-repeat center center;
   margin-bottom: 0;
   vertical-align: middle;
   align-items: center;
+  padding-bottom: 5rem;
 }
 
-#vineyard-fronsac .fronsac-img {
+#vineyard-fronsac .fronsac-img, #vineyard-bordeaux .fronsac-img {
   margin-top: 12rem;
   width: 50%;
   float: left;
 }
 
-#vineyard-fronsac ul {
+#vineyard-fronsac ul, #vineyard-bordeaux ul {
   list-style-image: url("../img/list.png");
   margin-left: 35%;
 }
 
-#vineyard-fronsac ul li {
+#vineyard-fronsac ul li, #vineyard-bordeaux ul li {
   margin: 4rem;
   line-height: 4rem;
 }
 
-#vineyard-fronsac h1 {
+#vineyard-fronsac h1, #vineyard-bordeaux h1 {
   position: absolute;
   color: #C9C1B3;
   margin-top: 50rem;
@@ -596,7 +597,7 @@ header .navbar-default .navbar-nav li a {
   width: 75%;
 }
 
-#vineyard-fronsac h3 {
+#vineyard-fronsac h3, #vineyard-bordeaux h3 {
   position: absolute;
   color: #5B574F;
   font-family: "Open Sans", Regular;
@@ -605,7 +606,28 @@ header .navbar-default .navbar-nav li a {
   margin-left: 35%;
 }
 
-#vineyard-fronsac .vineyard-txt {
+#vineyard-fronsac .sand-grape-type, #vineyard-bordeaux .sand-grape-type {
+  margin-left: 35%;
+  padding-top: 10rem;
+  padding-left: 1rem;
+}
+
+#vineyard-fronsac .sand-grape-type img, #vineyard-bordeaux .sand-grape-type img {
+  display: inline-block;
+  width: 10rem;
+}
+
+#vineyard-fronsac .sand-grape-type h4, #vineyard-bordeaux .sand-grape-type h4 {
+  display: inline-block;
+  color: #C9C1B3;
+  font-family: "Open Sans", Regular;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+
+#vineyard-fronsac .vineyard-txt, #vineyard-bordeaux .vineyard-txt {
   position: relative;
   color: #C9C1B3;
   margin-top: 70rem;
