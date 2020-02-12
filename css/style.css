@@ -560,7 +560,7 @@ header .navbar-default .navbar-nav li a {
   margin-right: -2rem;
 }
 
-#vineyard-fronsac, #vineyard-bordeaux {
+#vineyard-fronsac, #vineyard-bordeaux, #vineyard-emilion, #vineyard-pomerol, #vineyard-medoc {
   background: #1B1B1B no-repeat center center;
   margin-bottom: 0;
   vertical-align: middle;
@@ -568,23 +568,23 @@ header .navbar-default .navbar-nav li a {
   padding-bottom: 5rem;
 }
 
-#vineyard-fronsac .fronsac-img, #vineyard-bordeaux .fronsac-img {
+#vineyard-fronsac .fronsac-img, #vineyard-bordeaux .fronsac-img, #vineyard-emilion .fronsac-img, #vineyard-pomerol .fronsac-img, #vineyard-medoc .fronsac-img {
   margin-top: 12rem;
   width: 50%;
   float: left;
 }
 
-#vineyard-fronsac ul, #vineyard-bordeaux ul {
+#vineyard-fronsac ul, #vineyard-bordeaux ul, #vineyard-emilion ul, #vineyard-pomerol ul, #vineyard-medoc ul {
   list-style-image: url("../img/list.png");
   margin-left: 35%;
 }
 
-#vineyard-fronsac ul li, #vineyard-bordeaux ul li {
+#vineyard-fronsac ul li, #vineyard-bordeaux ul li, #vineyard-emilion ul li, #vineyard-pomerol ul li, #vineyard-medoc ul li {
   margin: 4rem;
   line-height: 4rem;
 }
 
-#vineyard-fronsac h1, #vineyard-bordeaux h1 {
+#vineyard-fronsac h1, #vineyard-bordeaux h1, #vineyard-emilion h1, #vineyard-pomerol h1, #vineyard-medoc h1 {
   position: absolute;
   color: #C9C1B3;
   margin-top: 50rem;
@@ -597,7 +597,20 @@ header .navbar-default .navbar-nav li a {
   width: 75%;
 }
 
-#vineyard-fronsac h3, #vineyard-bordeaux h3 {
+#vineyard-fronsac h2, #vineyard-bordeaux h2, #vineyard-emilion h2, #vineyard-pomerol h2, #vineyard-medoc h2 {
+  position: absolute;
+  color: #C9C1B3;
+  margin-top: 50rem;
+  font-family: "Open Sans", Regular;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 9rem;
+  text-align: right;
+  width: 80%;
+}
+
+#vineyard-fronsac h3, #vineyard-bordeaux h3, #vineyard-emilion h3, #vineyard-pomerol h3, #vineyard-medoc h3 {
   position: absolute;
   color: #5B574F;
   font-family: "Open Sans", Regular;
@@ -606,18 +619,18 @@ header .navbar-default .navbar-nav li a {
   margin-left: 35%;
 }
 
-#vineyard-fronsac .sand-grape-type, #vineyard-bordeaux .sand-grape-type {
+#vineyard-fronsac .sand-grape-type, #vineyard-bordeaux .sand-grape-type, #vineyard-emilion .sand-grape-type, #vineyard-pomerol .sand-grape-type, #vineyard-medoc .sand-grape-type {
   margin-left: 35%;
   padding-top: 10rem;
   padding-left: 1rem;
 }
 
-#vineyard-fronsac .sand-grape-type img, #vineyard-bordeaux .sand-grape-type img {
+#vineyard-fronsac .sand-grape-type img, #vineyard-bordeaux .sand-grape-type img, #vineyard-emilion .sand-grape-type img, #vineyard-pomerol .sand-grape-type img, #vineyard-medoc .sand-grape-type img  {
   display: inline-block;
   width: 10rem;
 }
 
-#vineyard-fronsac .sand-grape-type h4, #vineyard-bordeaux .sand-grape-type h4 {
+#vineyard-fronsac .sand-grape-type h4, #vineyard-bordeaux .sand-grape-type h4, #vineyard-emilion .sand-grape-type h4, #vineyard-pomerol .sand-grape-type h4, #vineyard-medoc .sand-grape-type h4 {
   display: inline-block;
   color: #C9C1B3;
   font-family: "Open Sans", Regular;
@@ -627,7 +640,7 @@ header .navbar-default .navbar-nav li a {
   padding-right: 4rem;
 }
 
-#vineyard-fronsac .vineyard-txt, #vineyard-bordeaux .vineyard-txt {
+#vineyard-fronsac .vineyard-txt, #vineyard-bordeaux .vineyard-txt, #vineyard-emilion .vineyard-txt, #vineyard-pomerol .vineyard-txt, #vineyard-medoc .vineyard-txt {
   position: relative;
   color: #C9C1B3;
   margin-top: 70rem;
