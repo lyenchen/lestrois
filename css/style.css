@@ -752,10 +752,7 @@ header .overlay .closebtn {
 @media (min-width: 768px) and (max-width: 1024px) {
 #home .container .media {
   height: 500px;
-  display: flex;
   margin-top: 0.5em;
-  align-items: center;
-  vertical-align: middle;
 }
 #our-story h1 {
   margin-top: 12rem;
@@ -775,20 +772,26 @@ header .overlay .closebtn {
 }
 }
 
-@media (min-width: 300px) and (max-width: 499px) {
+@media (min-width: 375px) and (max-width: 767px) {
 #home .container .media {
   height: 300px;
-  display: flex;
   margin-top: 0.5em;
-  align-items: center;
-  vertical-align: middle;
 }
 #our-story h1 {
-  margin-top: 2rem;
+  margin-top: 7rem;
   letter-spacing: 0.01rem;
   font-weight: 400;
-  font-size: 8rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
+}
+#our-story p {
+  letter-spacing: 0.01rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 5px;
+}
+#our-story a {
+  font-size: 1rem;
 }
 }
 
