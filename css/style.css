@@ -237,6 +237,7 @@ header .overlay .closebtn {
   letter-spacing: 0.01rem;
   vertical-align: middle;
   text-align: left;
+  font-size: 1.5rem;
   margin-bottom: 5rem;
   margin-left: 5px;
   width: 80%;
@@ -748,20 +749,29 @@ header .overlay .closebtn {
   border-bottom: 1px solid #F9C16D;
 }
 
-@media (min-width: 500px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 #home .container .media {
-  height: 300px;
+  height: 500px;
   display: flex;
   margin-top: 0.5em;
   align-items: center;
   vertical-align: middle;
 }
 #our-story h1 {
-  margin-top: 2rem;
+  margin-top: 12rem;
   letter-spacing: 0.01rem;
   font-weight: 400;
   font-size: 8rem;
   margin-bottom: 2rem;
+}
+#our-story p {
+  letter-spacing: 0.01rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 5px;
+}
+#our-story a {
+  font-size: 1rem;
 }
 }
 
