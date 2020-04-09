@@ -357,6 +357,53 @@ header .overlay .closebtn {
   width: 80%;
 }
 
+#our-people {
+  position: relative;
+  background-image: url("../img/cover8.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+#our-people .people-desc {
+  position: relative;
+  margin-top: 7%;
+}
+
+#our-people .people-desc .top {
+
+}
+
+#our-people .people-desc .bottom {
+  margin-top: 10%;
+}
+
+#our-people .people-desc .left {
+  text-align: left;
+}
+
+#our-people .people-desc .right {
+  text-align: right;
+}
+
+#our-people .people-desc h3 {
+  color: #5B574F;
+  font-family: "Open Sans", regular;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+#our-people .people-desc p {
+  color: #C9C1B3;
+  font-family: "Open Sans", regular;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
 #testimonial {
   position: relative;
   background-image: url("../img/cover5.jpg");
