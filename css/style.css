@@ -371,10 +371,6 @@ header .overlay .closebtn {
   margin-top: 7%;
 }
 
-#our-people .people-desc .top {
-
-}
-
 #our-people .people-desc .bottom {
   margin-top: 10%;
 }
@@ -402,6 +398,67 @@ header .overlay .closebtn {
   font-weight: 400;
   font-size: 1.5rem;
   margin-bottom: 2rem;
+}
+
+#contact-us {
+  position: relative;
+  background-image: url("../img/cover9.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+#contact-us .contact-desc {
+  position: relative;
+  margin-top: 1em;
+}
+
+#contact-us .contact-desc .right {
+  margin-left: 50%;
+  text-align: left;
+}
+
+#contact-us .contact-desc h2 {
+  color: #5B574F;
+  font-family: "Open Sans", regular;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 6rem;
+  margin-bottom: 4rem;
+}
+
+#contact-us .contact-desc h3 {
+  color: #5B574F;
+  font-family: "Open Sans", regular;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+#contact-us .contact-desc p {
+  color: #C9C1B3;
+  font-family: "Open Sans", regular;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+#contact-us .fab {
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #C9C1B3;
+  margin-right: 2rem;
+}
+
+#contact-us .contact-desc a {
+  font-family: "Open Sans", regular;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #C9C1B3;
 }
 
 #testimonial {
