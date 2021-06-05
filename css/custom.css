@@ -1642,17 +1642,7 @@ footer .facebook {
   padding-top: 15px;
 }
 
-#sidebar .nav-side-menu {
-  padding-top: 30rem;
-  flex-wrap: nowrap;
-  overflow: auto;
-  position: fixed;
-  height: 100%;
-  z-index: 2;
-  display: none;
-}
 
-@media (min-width: 769px) {
 #sidebar .nav-side-menu {
   padding-top: 30rem;
   flex-wrap: nowrap;
@@ -1678,6 +1668,5 @@ footer .facebook {
 #sidebar .nav-side-menu ul li a:hover {
   color: #C9C1B3;
   border-bottom: 1px solid #F9C16D;
-}
 }
 /*# sourceMappingURL=custom.css.map */
