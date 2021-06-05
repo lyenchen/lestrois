@@ -544,6 +544,13 @@ h1 {
   line-height: 50px;
 }
 
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 80px;
+    line-height: 90px;
+  }
+}
+
 @media (min-width: 769px) {
   h1 {
     font-size: 70px;
