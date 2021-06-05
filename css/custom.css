@@ -1400,6 +1400,10 @@ footer .facebook {
   padding-bottom: 20px;
 }
 
+.vineyard .grapes {
+  padding-bottom: 20px;
+}
+
 /* journey */
 .journey {
   display: -webkit-box;
@@ -1668,5 +1672,11 @@ footer .facebook {
 #sidebar .nav-side-menu ul li a:hover {
   color: #C9C1B3;
   border-bottom: 1px solid #F9C16D;
+}
+
+@media (max-width: 769px) {
+  #sidebar .nav-side-menu {
+    display: none;
+  }
 }
 /*# sourceMappingURL=custom.css.map */
