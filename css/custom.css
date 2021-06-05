@@ -540,14 +540,14 @@ body {
 }
 
 h1 {
-  font-size: 35px;
-  line-height: 38px;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 @media (min-width: 769px) {
   h1 {
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 70px;
+    line-height: 80px;
   }
 }
 
@@ -1433,6 +1433,10 @@ footer .facebook {
     padding-top: 100px;
     padding-bottom: 50px;
   }
+}
+
+.journey h1 {
+  padding-bottom: 40px;
 }
 
 .journey h2 {
