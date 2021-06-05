@@ -1642,7 +1642,17 @@ footer .facebook {
   padding-top: 15px;
 }
 
-@media (min-width: 1025px) {
+#sidebar .nav-side-menu {
+  padding-top: 30rem;
+  flex-wrap: nowrap;
+  overflow: auto;
+  position: fixed;
+  height: 100%;
+  z-index: 2;
+  display: none;
+}
+
+@media (min-width: 769px) {
 #sidebar .nav-side-menu {
   padding-top: 30rem;
   flex-wrap: nowrap;
