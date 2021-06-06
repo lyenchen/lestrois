@@ -365,7 +365,7 @@ body {
 }
 
 .wine_desc h3 {
-  font-size: 3vw;
+  font-size: 5vw;
   line-height: normal;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -379,7 +379,7 @@ body {
 
 @media (min-width: 1201px) {
   .wine_desc h3 {
-    font-size: 3vw;
+    font-size: 5vw;
   }
 }
 
@@ -906,6 +906,19 @@ footer .facebook {
   padding-top: 20px;
 }
 
+.index_story h3 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (min-width: 769px) {
+  .index_story h3 {
+    font-size: 30px;
+  }
+}
+
 .index_vineyards {
   height: 100vh;
   width: 100vw;
@@ -1022,6 +1035,41 @@ footer .facebook {
 
 .index_wines .index_wine_desc h2 {
   padding-bottom: 20px;
+}
+
+.index_wines {
+  height: auto;
+  overflow: hidden;
+  background-image: url(../img/cover4.jpg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+@media (min-width: 769px) {
+  .index_wines {
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .index_wines {
+    height: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
 }
 
 .testimonial {
