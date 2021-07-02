@@ -774,6 +774,27 @@ footer .facebook {
   font-size: 60px;
 }
 
+.overlay .language-selection {
+  position: absolute;
+  display: flex;
+  top: 20px;
+  margin-left: 10px;
+  width: 280px;
+  height: 20px;
+  flex-direction: row;
+}
+
+.overlay .language-selection .lang-flag {
+  width: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.overlay .language-selection a {
+  font-size: 15px;
+  vertical-align: middle;
+}
+
 .index_main {
   height: 100vh;
   background-image: url("../img/cover1_small.jpg");
